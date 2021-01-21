@@ -1,11 +1,11 @@
-import HomeProductItem from "./ProductItem";
+import products from "../products";
+import ProductItem from "./ProductItem";
 
-const HomeProductList = () => {
-  return (
-    <div>
-      <HomeProductItem />
-      <productList />
-    </div>
-  );
+const ProductList = () => {
+  const productList = products.map((product) => {
+    return <ProductItem key={product.id} product={product} />;
+  });
+  return <div>{productList}</div>;
 };
-export default HomeProductList;
+
+export default ProductList;
