@@ -1,10 +1,13 @@
+import { GlobalStyle } from "./styles";
+
 import HomePage from "./components/Home";
 import ProductList from "./components/ProductList";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <GlobalStyle />
       <HomePage />
       <ProductList />
     </div>
