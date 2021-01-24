@@ -23,7 +23,9 @@ export const ListWrapper = styled.div`
 export const ProductName = styled.h4`
   text-align: center;
 `;
-
+export const ShopImage = styled.img`
+  text-align: center;
+`;
 export const ProductPrice = styled.p`
   text-align: center;
 `;
