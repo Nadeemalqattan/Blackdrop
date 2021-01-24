@@ -1,12 +1,12 @@
-import "../App.css";
+import { ListWrapper, ProductName, ProductPrice } from "../styles";
 const ProductItem = (props) => {
   const product = props.product;
   return (
-    <div className="App">
-      <h4>{product.name}</h4>
+    <ListWrapper>
+      <ProductName>{product.name}</ProductName>
       <img src={product.image} alt={product.name} />
-      <p>Price: {product.price} BD</p>
-    </div>
+      <ProductPrice>Price: {product.price} BD</ProductPrice>
+    </ListWrapper>
   );
 };
 

@@ -12,8 +12,18 @@ export const Title = styled.h1`
 export const Description = styled.h2`
   text-align: center;
 `;
+export const HomeWrapper = styled.div`
+  text-align: center;
+  display: block;
+`;
 export const ListWrapper = styled.div`
-  align-itmes: center;
-  justify-content: center;
-  display: flex;
+  text-align: center;
+  display: block;
+`;
+export const ProductName = styled.h4`
+  text-align: center;
+`;
+
+export const ProductPrice = styled.p`
+  text-align: center;
 `;
