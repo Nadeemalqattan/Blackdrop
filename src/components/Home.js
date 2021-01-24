@@ -1,4 +1,3 @@
-import "../App.css";
 import { Title, Description, HomeWrapper } from "../styles";
 const HomePage = () => {
   return (
